@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Egret Island</title>
-    <link>https://youwuyou.github.io/</link>
+    <link>https://www.egretisland.com/</link>
     <description>Recent content on Egret Island</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://youwuyou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.egretisland.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
