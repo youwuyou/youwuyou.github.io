@@ -73,9 +73,27 @@
     
 
     
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
   </ul>
 </header>
-<main class="flex-1"><section class="bg-pink-50 dark:bg-gray-900">
+<main class="flex-1"><section class="bg-cyan-100 dark:bg-gray-900">
   <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
     <div>
       <h1 class="text-4xl font-bold mb-4"></h1>
@@ -88,7 +106,7 @@
     
   </div>
 
-  <div class="bg-pink-50 dark:bg-gray-900">
+  <div class="bg-cyan-100 dark:bg-gray-900">
   <div class="container px-6 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     <div>
       <div class="text-2xl font-bold mb-2"></div>
@@ -162,6 +180,34 @@
 
 
 
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
 
 
 <script>
