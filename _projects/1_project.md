@@ -1,81 +1,86 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: ACT4E Python library
+description: Implementation of a Python library to build and manipulate different basic algebraic structures taught in the class applied category theory for engineers.
+img: ../../assets/img/publication_preview/act4e_logo.png
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: Course work
+related_publications: censi2022applied
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+---
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Solving real-life problems
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+by recognizing the algebraic structures for a familiar engineering domain, one can utilize these compositionality structures to achieve either more elegance or efficiency
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Application: Currency optimization problem
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+![set-up of the problem](../../assets/img/projects/act4e/currencyOpt.png)
 
+In this set-up we were asked to implement an algorithm which outputs the optimal path from the source currency to the target currency such that the resulting amount of money after the currency exchange is maximized.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In our approach, we define the currency category **Curr** which enables us to model currencies as objects of a category, and morphisms will describe exchanging between those currencies.
+
+We can formally define this category as followed:
+
+![formal definition](../../assets/img/projects/act4e/currCat.png)
+
+After recognizing the algebraic structure in this modelling problem, the rest of the implementation is then trivial by utilizing the implemented Python library. The implementation for [`semicategory_concrete.py`](https://github.com/youwuyou/act4e-spring2022-exercises-youwuyou/blob/alphubel-prod/src/act4e_solutions/semicategory_concrete.py) is illustrated below.
+
+```python
+from typing import TypedDict, Any, TypeVar, List
+import act4e_interfaces as I
+import networkx as nx
+import math
+from numpy import identity
+from act4e_solutions.semicat_repr_helper import ToolSet, EQ
+
+# TypeVar
+MD = TypeVar("MD")
+
+class CurrencyOptimization(I.CurrencyOptimization):
+    def compute_optimal_conversion(self,
+                                   available: I.SemiCategory[I.RichObject[str],
+                                   I.RichMorphism[I.CurrencyExchanger]],
+                                   source: str,
+                                   amount: float,
+                                   target: str) -> I.OptimalSolution:
+        
+        final_amount: float
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+        # STEP 1: return all morphisms from 'source' to 'target'
+        # def hom(self, ob1: Ob, ob2: Ob, uptolevel: Optional[int] = None) -> I.EnumerableSet[Mor]:
+        rich_obj1 = I.RichObject(source, source)
+        rich_obj2 = I.RichObject(target, target)
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+        homset_src_dst = available.hom(rich_obj1, rich_obj2, uptolevel=1)
+        hom_elements = list(homset_src_dst.elements())
+
+        path_labels = ""
+        final_amount = 0.
+
+        for mor in hom_elements:
+            outcome = self.exchanged(amount, mor.mordata)
+            if outcome > final_amount:
+                path_labels = mor.label
+                final_amount = outcome
+        return I.OptimalSolution([path_labels], final_amount)
+
+
+    def exchanged(self, x: float, curr: I.CurrencyExchanger)-> float:
+        """Given a CurrencyExchanger
+           Returns the exchanged value
+        """
+        fx = x * curr.rate - curr.commission
+        return fx
 ```
-{% endraw %}
+
+<br>
+
+## Visualization of some algebraic structures
+
+For sake of the simplicity, we integrated the networkx library for solving certain problems. We then added a graphical representation layer which gives us a simple-to-use interface for visualizing many algebraic structures.
+
+![solving poset closure problem](../../assets/img/projects/act4e/poset_large_shellpos.png)
