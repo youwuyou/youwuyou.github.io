@@ -4,7 +4,7 @@ title: ACT4E Python library
 description: Implementation of a Python library to build and manipulate different basic algebraic structures taught in the class applied category theory for engineers.
 img: ../../assets/img/publication_preview/act4e_logo.png
 importance: 1
-category: Course work
+category: Work
 related_publications: censi2022applied
 ---
 
