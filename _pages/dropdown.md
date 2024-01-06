@@ -8,8 +8,8 @@ children:
     - title: CV
       permalink: /cv/
     - title: divider
-    - title: PROJECTS
-      permalink: /projects/
+    - title: Walk & Work
+      permalink: /walknwork/
     - title: divider
     - title: REPOSITORIES
       permalink: /repositories/

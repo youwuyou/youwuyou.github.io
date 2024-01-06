@@ -5,5 +5,5 @@ description: Created the Julia wrapper package Ginkgo.jl for the high-performanc
 img: ../../assets/img/projects/ginkgo/logo_light_horizontal.svg
 redirect: https://ginkgo-for-julia.org/
 importance: 3
-category: Course work
+category: Work
 ---

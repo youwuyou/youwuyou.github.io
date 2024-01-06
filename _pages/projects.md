@@ -1,11 +1,11 @@
 ---
 layout: page
-title: PROJECTS
-permalink: /projects/
-description: some of my projects
+title: Walk & Work
+permalink: /walknwork/
+description: when I am not working, I sometimes walk
 nav: false
 nav_order: 2
-display_categories: [Course work, work, fun]
+display_categories: [Walk, Work]
 horizontal: false
 ---
 

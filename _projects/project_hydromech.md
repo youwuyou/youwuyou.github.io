@@ -5,5 +5,5 @@ description: architecture-agnostic hydro-mechanical solvers for solving the two-
 img: ../../assets/img/projects/hydromech/PW_evolution.png
 redirect: https://youwuyou.github.io/HydroMech.jl/
 importance: 3
-category: Course work
+category: Work
 ---
