@@ -26,31 +26,31 @@ toc:
 
 ## how it started...
 
-The first time I heard about the [Camino de Santiago](https://www.wikiwand.com/en/Camino_de_Santiago) was in our religion course in high school, when I was 18 back in 2018. I cannot quite recall the exact contents how this pilgrimage way was brought up in class. But I became fairly interested in it.
+The first time I heard about the [Camino de Santiago](https://www.wikiwand.com/en/Camino_de_Santiago) was during a religion course in high school when I was 18, back in 2018. I can't quite recall the exact details of how this pilgrimage was introduced in class, but it piqued my interest significantly.
 
 Shortly before the summer holidays began, I impulsively decided to set on the trip. I wrote to the ["Pilgerstelle Bistum Limburg"](https://pilgern.bistumlimburg.de/beitrag/hier-pilgerausweis-beantragen/), bought a small but very compact [guidebook from KOMPASS](https://www.google.ch/books/edition/Kompass_Wanderf%C3%BChrer_Jakobsweg_Spanien/UmYuDwAAQBAJ?hl=de&gbpv=0) and received [the pilgrim's credential](https://oficinadelperegrino.com/en/pilgrimage/the-credencial/) shortly after. Got two weeks off under the allowances of the headmaster of our school. And here we go.
 
 ## preparation
 
-I decided to bring as little clothes as possible and as it was summertime, I was able to bring just couple of T-shirts and shorts and plus some underwears it did not add much to the weight. But I somehow decided to bring a bibel with me. Not sure what 18-year-old me was thinking about at that moment, maybe I found it to be quite spiritual back then. This heavily increased the weight that I had to carry with me, but brought me some joy on the way when I got some chance to just sit and read on few pages. I also brought a small sketchbook so I could draw some funny stuff when I got bored just walking.
+I decided to bring as little clothes as possible and, as it was summertime, I was able to bring just a couple of T-shirts and shorts, and plus some underwear, it did not add much to the weight. But I somehow decided to bring a Bible with me. Not sure what 18-year-old me was thinking about at that moment, maybe I found it to be quite spiritual back then. This heavily increased the weight that I had to carry with me, but brought me some joy on the way when I got the chance to just sit and read a few pages. I also brought a small sketchbook so I could draw some funny stuff when I got bored just walking.
 
-It was a careless decision throughout and it showed early enough that I should have brought a more professional hiking backpack that can help in reducing the weight on my shoulders alone by redistributing the weight a bit. The school backpack I used quickly broke away and I had to purchase a new one. Same with the shoes. Looking back from the future perspective I have right now, I would suggest to younger me to bring a pair of sandals or crocs and just tie them on the backpack. This could come in handy to spots where you need to step through water, which didn't happen a lot on my way as it was almost always good weather in the summer 2018 when I walked. But I could imagine the same way being muddy and tricky to step on in a cold, rainy winter day.
+It was a careless decision throughout, and it showed early enough that I should have brought a more professional hiking backpack that can help in reducing the weight on my shoulders alone by redistributing the weight a bit. The school backpack I used quickly broke away, and I had to purchase a new one. Same with the shoes. Looking back from the future perspective I have right now, I would suggest to younger me to bring a pair of sandals or crocs and just tie them on the backpack. This could come in handy for spots where you need to step through water, which didn't happen a lot on my way as it was almost always good weather in the summer of 2018 when I walked. But I could imagine the same way being muddy and tricky to step on in a cold, rainy winter day.
 
 ## where did I sleep
 
-I did not consider much about accomendations before setting out, but it turned out I just pick the right time to walk, and the route I chose -- "Camino Francés" is probably the most organized route out of all possible pilgrimage ways, as it is very popular and attracts thousands of pilgrims every year. If one would like to walk on the same route but off-season in winter, you would probably want to make sure you can secure the next spot where you sleep at least a day prior to it.
+I didn't give much thought to accommodations before setting out, but it turned out I had chosen the right time to walk. The route I picked, "Camino Francés," is probably the most organized out of all the pilgrimage routes. It's very popular and attracts thousands of pilgrims every year. If someone were to walk the same route but off-season, in winter, they would probably want to ensure securing their next sleeping spot at least a day in advance.
 
-In summer 2018 when I walked, I did not make any reservations nor call any albergues (🇪🇸 pilgrimage hostel). I always just arrive in one of the available accomendations and it actually worked out pretty well. On average it costed me 8 - 15 € per night and some places even offered free stay + food but requested some donations.
+During the summer of 2018, when I embarked on my journey, I made no reservations nor did I call ahead to any albergues (🇪🇸 pilgrimage hostels). I always just arrived at one of the available accommodations, and it worked out surprisingly well. On average, it cost me between 8 to 15 euros per night, and some places even offered free stays and food, only requesting donations in return.
 
-There was also once when I spent a night under a tent a Spanish couple set up and another two nights I spent alone in the forests in my hammock. But those were rather exceptional cases.
+There was also a time when I spent a night under a tent set up by a Spanish couple, and another two nights alone in the forests in my hammock. But these were rather exceptional cases.
 
-## underway for a month
+## on the way for a month
 
-I did enjoyed hiking but have never done such a long-distance hike before. But I was somehow confident that my feet would be able to carry me over these 800 kilometers, considering the average distance one needs to make was barely around 24 km / day. I am a very slow in walking though and most of the time I was among one of the last ones who arrived in the albergue. There were also a few days where I had to walk with blisters on my feet, that was painful and slowed me down even more.
+I did enjoy hiking but had never undertaken such a long-distance hike before. However, I was somewhat confident that my feet could carry me over these 800 kilometers, considering the average distance one needs to cover was barely around 24 km per day. I am very slow in walking, though, and most of the time, I was among the last ones to arrive at the albergue. There were also a few days when I had to walk with blisters on my feet, which was painful and slowed me down even more.
 
-I thought at the beginning it would be a solo hike but it turned out that I met a lot of "camino friends" along the way, hiked with different people, listened to their stories and said "buen camino" and farewelled to a lot of people as well.
+Initially, I thought it would be a solo hike, but it turned out that I met a lot of "Camino friends" along the way. I hiked with different people, listened to their stories, and said "Buen Camino" while bidding farewell to many as well.
 
-Followings are some throughbacks on the trip that I made in 2018. I cannot find all the pictures and videos on the way, otherwise I would have put them all here.
+Following are some throwbacks to the trip that I made in 2018. I can't find all the pictures and videos from the journey.
 
 ### Day 1: Saint-Jean-Pied-de-Port → Orrison
 
@@ -64,7 +64,7 @@ Followings are some throughbacks on the trip that I made in 2018. I cannot find 
     </div>
 </div>
 <div class="caption">
-    The first day was the toughest day. It rained all along the way and it made climbing up the mountain more challenging as it became super slippery. I gradually lost a lot of my body temperature as I only wore a T-shirt and shorts in a summer day and did not expect the temperature drop. Luckily, after reaching the refuge Orisson and eating something, it became much warmer very soon. Considering the bad weather conditions, I decided to stay in Orrison and continue the rest of the stage the second day.
+The first day was the toughest. It rained continuously, making the climb up the mountain more challenging due to the slippery conditions. Gradually, I lost a lot of body heat, as I was only dressed in a T-shirt and shorts, not anticipating the drop in temperature. Fortunately, after reaching the refuge at Orisson and having something to eat, I warmed up quite quickly. Given the adverse weather conditions, I decided to stay in Orisson and continue the rest of the stage on the second day.
 </div>
 
 ### Day 2: Orrison → Roncesvalles
@@ -115,8 +115,7 @@ Followings are some throughbacks on the trip that I made in 2018. I cannot find 
     </div>
 </div>
 <div class="caption">
-    After the whole day hike, I decided to take a small break and went up hills to explore the ruins of a small castle -- <a href="https://maps.app.goo.gl/mX4rKDyDJZEAN5797"> Castillo de San Esteban de Deyo o de Monjardín</a>.
- It was an astonishingly beautiful view up the hills when the sun gradually started to set down.
+    After a full day's hike, I decided to take a short break and ventured up the hills to explore the ruins of a small castle—<a href="https://maps.app.goo.gl/mX4rKDyDJZEAN5797">Castillo de San Esteban de Deyo or de Monjardín</a>. The view from the hills was astonishingly beautiful, especially as the sun gradually began to set.
 </div>
 
 
@@ -249,6 +248,7 @@ Followings are some throughbacks on the trip that I made in 2018. I cannot find 
 ### Day 19: → El Burgo Ranero
 
 - 30/06/2018
+
 <!-- - Trip Distance: 
 - Accommodation: []() -->
 
@@ -325,9 +325,10 @@ Followings are some throughbacks on the trip that I made in 2018. I cannot find 
 
 - 08/07/2018
 - Trip Distance: 22.2 km
+
 <!-- - Accommodation: []() -->
 
-Waking up up in the hills in O Cebreiro gave such an amazing panorama view -- with all the clouds filling up the vallies between the mountains. The day was accompanied with smell of chestnut trees. It was amazing to witness the lifely 800-year old chestnut tree standing at the beginning of the village of Triacastela, imaging what has happened to her in the past ages...
+Waking up in the hills of O Cebreiro offered an amazing panoramic view, with clouds filling the valleys between the mountains. The day was accompanied by the smell of chestnut trees. It was awe-inspiring to witness the lively 800-year-old chestnut tree standing at the entrance of the village of Triacastela, imagining all the events it has witnessed over the past centuries...
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -394,7 +395,7 @@ These were some notes I took on the last day of the trip.
 
 >33日/799公里
 >其实地上本没有路，走的人多了，也便成了路。
->就此，可能没有那条路是全然独行之路，但每个人确有独一无二的行路方式：有人旁若无人般吟啸而行、有人似始终只于朦胧中神游，亦有人只敢于与他人同行。即便只是趋之若鹜般涌向那一张张证书，何不也为一种选择？
+>就此，可能没有哪条路是全然独行之路，但每个人确有独一无二的行路方式：有人旁若无人般吟啸而行、有人似始终只于朦胧中神游，亦有人只敢于与他人同行。即便只是趋之若鹜般涌向那一张张证书，何不也为一种选择？
 >自己走好自己的路便好。
 
 ---
