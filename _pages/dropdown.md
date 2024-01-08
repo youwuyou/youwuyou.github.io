@@ -8,9 +8,6 @@ children:
     - title: CV
       permalink: /cv/
     - title: divider
-    - title: Walk & Work
-      permalink: /walknwork/
-    - title: divider
     - title: REPOSITORIES
       permalink: /repositories/
     - title: divider
