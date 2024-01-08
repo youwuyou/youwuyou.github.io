@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Walk & Work
-permalink: /walknwork/
+title: WALK & WORK
+permalink: /projects/
 description: when I am not working, I sometimes walk
-nav: false
-nav_order: 2
+nav: true
+nav_order: 3
 display_categories: [Walk, Work]
 horizontal: false
 ---
