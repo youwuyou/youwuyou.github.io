@@ -13,6 +13,8 @@ toc:
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rZp32wo1iVtklWTHjn9Qq7WJ9mLI4WM&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
 
+---
+
 ### original plan
 
 This time, I started the journey with [@spherinder](https://github.com/spherinder) together to Italy. We traveled from Zurich through Chiasso on the 29th, using the night GA travelcard to get to Milano. Today is the second day of our trip. We plan to walk a section of the Via Francigena for a few days, until January 2nd, and return on January 3rd. That was our original plan.
