@@ -6,7 +6,7 @@ description: this site is my personal homepage. I am You.
 
 nav: true
 nav_order: 6
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
