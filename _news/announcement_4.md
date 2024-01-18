@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 I moderated the [Julia for HPC Birds of a Feather session](https://github.com/JuliaParallel/julia-hpc-bof-sc23) @ [SC23 🇺🇸](https://sc23.supercomputing.org/)
+📢 I moderated the [Julia for HPC Birds of a Feather session](https://github.com/JuliaParallel/julia-hpc-bof-sc23) @ [SC23, Dallas 🇺🇸](https://sc23.supercomputing.org/)

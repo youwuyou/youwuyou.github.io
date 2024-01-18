@@ -300,10 +300,10 @@ The first day was the toughest. It rained continuously, making the climb up the 
 - Trip Distance: 26.8 km
 <!-- - Accommodation: []() -->
 
-### Day 25: Ponferrada → Villafranca del Bierzo
+### Day 25: Ponferrada → Cacabelos
 
 - 06/07/2018
-- Trip Distance: 24.3 km
+- Trip Distance: 12.4 km
 <!-- - Accommodation: []() -->
 
 <div class="row">
@@ -315,18 +315,31 @@ The first day was the toughest. It rained continuously, making the climb up the 
     Beautiful view on the route from Ponferrada to Cacabelos. In the afternoon, it rained really heavily in the city, but that meant there was no heat and there was also a nice surprise :)
 </div>
 
-### Day 26: Villafranca del Bierzo → O Cebreiro
+The sun had already set as I continued my journey towards Villafranca del Bierzo. Along the way, I encountered a friendly Spanish couple camping near Cacabelos with their adorable dog. We engaged in a delightful conversation, and they kindly invited me to hang my hammock under their spacious tent to join them. It turned out to be a warm and pleasant night, and I slept quite comfortably.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/camino/sketch4.jpg" title="camino" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/camino/sketch5.png" title="camino" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    And I am sure I wrote down the date wrongly, it should have been 06/07/2018 instead on my sketchbook.
+</div>
+
+### Day 26: Cacabelos → O Cebreiro
 
 - 07/07/2018
-- Trip Distance: 27.8 km
+- Trip Distance: 35.1 km
 - Accommodation: [Albergue Municipal de O Cebreiro](https://maps.app.goo.gl/RBjbTkLV6uZMj3ZZA)
 
 ### Day 27: O Cebreiro → Triacastela
 
 - 08/07/2018
 - Trip Distance: 22.2 km
-
-<!-- - Accommodation: []() -->
+- Accommodation: in the wild near Cacabelos
 
 Waking up in the hills of O Cebreiro offered an amazing panoramic view, with clouds filling the valleys between the mountains. The day was accompanied by the smell of chestnut trees. It was awe-inspiring to witness the lively 800-year-old chestnut tree standing at the entrance of the village of Triacastela, imagining all the events it has witnessed over the past centuries...
 
@@ -359,6 +372,15 @@ Waking up in the hills of O Cebreiro offered an amazing panoramic view, with clo
 - 11/07/2018
 - Trip Distance: 24.7 km
 <!-- - Accommodation: []() -->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/camino/sketch6.jpg" title="camino" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    While on my journey, I came across the stunning ruins of <a href="https://maps.app.goo.gl/gv9kaoFbRq6275Ed8">Castro de Castromaior</a> and paused to sketch them.
+</div>
 
 ### Day 31: Palas de Rei → Arzúa
 
