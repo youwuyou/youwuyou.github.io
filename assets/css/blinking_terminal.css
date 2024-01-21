@@ -1,0 +1,1 @@
+.animated-text{font-family:'Courier New',monospace}.blink{margin-left:5px;font-family:'Courier New',monospace;font-weight:bold;animation:1s blink step-end infinite;-webkit-animation:1s blink step-end infinite}@keyframes blink{from,to{color:transparent}50%{color:var(--primary-color)}}
