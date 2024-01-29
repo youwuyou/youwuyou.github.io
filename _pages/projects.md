@@ -1,11 +1,11 @@
 ---
 layout: page
-title: WORK & WALK
+title: Projects
 permalink: /projects/
-description: when I am not working, I sometimes walk
+description: Some of my projects
 nav: true
 nav_order: 3
-display_categories: [Work, Walk]
+display_categories: [Work, Games, Walk]
 horizontal: false
 ---
 
