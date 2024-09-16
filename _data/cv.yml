@@ -12,21 +12,24 @@
     - name:
       value: Spanish (B1/B2)
     - name:
-      value: Swedish (A1)
+      value: Swedish (A2)
 
 - title: Education
   type: time_table
   contents:
+    - title: Master of Science, Computational Science & Engineering
+      institution: ETH Zürich, Zürich, Switzerland 🇨🇭
+      year: 09/2024 - Present
     - title: Bachelor of Science, Computational Science & Engineering
       institution: ETH Zürich, Zürich, Switzerland 🇨🇭
-      year: 2020 - 
+      year: 09/2020 - 09/2024
     - title: Abitur (G9)
       institution: Campus Klarenthal, Wiesbaden, Germany 🇩🇪
-      year: 2017 - 2020
+      year: 08/2017 - 07/2020
       description: Continued education in Germany and attended Grade 11 - 13.
     - title: High School
       institution: Xiamen No.1 High School of Fujian, Xiamen, China 🇨🇳
-      year: 2015 - 2016
+      year: 09/2015 - 02/2016
       description: Attended the first half of Grade 10 before relocating to Germany.
 
 
@@ -34,54 +37,71 @@
   type: time_table
   contents:
     - title: Research Assistant
-      institution: University of Tennessee, Knoxville, TN 🇺🇸
-      year: SEP 2023 - NOV 2023
+      institution: GPU4GEO PASC Project, ETH Zürich 🇨🇭
+      year: 06/2024 - Present
       description:
-        - Innovative Computing Lab (ICL) under the supervision of Prof. Hartwig Anzt.
-        - Created the Julia wrapper package <a href="https://github.com/youwuyou/Ginkgo.jl">Ginkgo.jl</a> for the high-performance linear algebra library <a href="https://ginkgo-project.github.io/">ginkgo</a>.
+        - Task-based parallelism on CPU/GPU for finite difference computations on staggered grids, contribution to <a href="https://ptsolvers.github.io/Chmy.jl/">Chmy.jl</a>.
+        - Supervised by Prof. Paul J. Tackley, Dr. Ludovic Räss, Dr. Ivan Utkin
+    - title: Research Assistant
+      institution: Innovative Computing Laboratory, Department EECS, University of Tennessee, Knoxville, TN 🇺🇸
+      year: 09/2023 - 11/2023
+      description:
+        - Language interoperability for the high-performance linear algebra library <a href="https://ginkgo-project.github.io/">ginkgo</a>.
+        - Supervised by Prof. Hartwig Anzt, Dr. Valentin Chuvary, Tobias Ribizel
     - title: Bachelor Thesis Student
-      institution: ETH Zürich, Zürich, Switzerland 🇨🇭
-      year: NOV 2022 - JUL 2023
+      institution: Geophysical Fluid Dynamics group, Institute of Geophysics, ETH Zürich, Zürich, Switzerland 🇨🇭
+      year: 11/2022 - 07/2023
       description:
-        - Institute of Geophysics under the supervision of Prof. Taras V. Gerya, Dr. Luca Dal Zilio and Dr. Albert De Monserrat Navarro.
         - Development of a 2D unified and generalized solver that contains architecture-agnostic kernels targeting CPUs/GPUs for fully compressible two-phase porous media in Julia.
-        - Implemented inertial wave-mediated effects and rate-and-state dependent friction. Tested an adaptive time stepping scheme to resolve both long- and short-time scales, ranging from years to milliseconds during the dynamic propagation of dynamic rupture.
+        - Supervised by Prof. Taras V. Gerya, Prof. Luca Dal Zilio, Dr. Albert de Monserrat Navarro
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/youwuyou/Ginkgo.jl">Ginkgo.jl</a>
-      year: 2023-now
+      year: 2023 - Present
       description: Creating C API for the C++ ginkgo library and implementing a wrapper package in Julia.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: NOV 2022
+    - year: 07/2024
+      title: JuliaCon 2024 DEI Scholarship
+      items: 
+        - Eindhoven, Netherlands 🇳🇱
+        - Awarded a scholarship of up to $750 for attending JuliaCon 2024 in Eindhoven.
+
+    - year: 11/2022
       title: SC22 Student Cluster Competition
       items: 
         - ETH Zürich “RACKlette” Team, Dallas, TX 🇺🇸
-        - Responsible for the HPC App "PHASTA" and obtained top results. "PHASTA" is a HPC software which supports modeling compressible or incompressible, laminar or turbulent, steady or unsteady flows in 3D, using unstructured grids.
+        - Achieved top results for the HPC software package 'PHASTA', used for CFD simulations.
 
-    - year: JUN 2020
-      title: Karin-Elisabeth Loos Sponsorship Award
-      items: 
-        - Wiesbaden, Germany 🇩🇪
-        - Awarded with 1.000 EUR as prize money.
-        - The prize is intended to stimulate interest in the natural sciences and promote education in this field among students who have obtained a high school diploma.
-
-    - year: JUN 2020
+    - year: 06/2020
       title: National Linguistics Olympiad (DOL)
       items: 
         - Berlin, Germany 🇩🇪
-        - 6th. Place | DOL Germany | Leibniz Center for General Linguistics (ZAS)
+        - 6th. Place | Leibniz Center for General Linguistics (ZAS).
 
+    - year: 06/2020
+      title: Karin-Elisabeth Loos Sponsorship Award
+      items: 
+        - Wiesbaden, Germany 🇩🇪
+        - One of five top high school graduates in Wiesbaden awarded €1,000 for excellence in natural sciences.
 
-
-- title: Recent talks & Presentations
+- title: Recent Conference Presentations
   type: time_table
   contents:
-    - year: NOV 2023
+    - year: 05/06/2024
+      title: Enhancing GPU-Accelerated Scientific Computing in Julia with Ginkgo.jl <a href="https://pasc24.pasc-conference.org/presentation/?id=msa166&sess=sess132" target="_blank"><i class="fa-solid fa-link"></i></a>
+      items: 
+        - Zürich, Switzerland 🇨🇭
+    - year: 16/11/2023
       title: SC23 BoF Julia for HPC <a href="https://github.com/JuliaParallel/julia-hpc-bof-sc23" target="_blank"><i class="fab fa-github"></i></a>
       items: 
         - Denver, CO 🇺🇸
+    - year: 04/2023
+      title: Poster at EGU23 <a href="https://meetingorganizer.copernicus.org/EGU23/EGU23-12897.html" target="_blank"><i class="fa-solid fa-link"></i></a>
+      items: 
+        - Vienna, Austria 🇦🇹
+        - "Resolving Hydro-Mechanical Earthquake Cycles with a GPU-based Accelerated Pseudo-Transient Solver"
