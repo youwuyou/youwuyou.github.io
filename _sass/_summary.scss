@@ -1,0 +1,85 @@
+/*******************************************************************************
+ * Style overrides for summary box.
+ ******************************************************************************/
+
+/* Card Container */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Individual Cards */
+.scard {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color-light-mode); /* Use softer color for text in light mode */
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased; /* Add smoothing for softer appearance */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Card Hover Effect */
+.scard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px var(--global-hover-color);
+  border-color: var(--global-theme-color);
+}
+
+/* Card Title */
+.scard h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+/* Links in Cards */
+.scard a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.scard a:hover {
+  text-decoration: none;
+  color: var(--global-hover-color);
+}
+
+/* Paragraphs in Cards */
+.scard p {
+  margin: 0.75rem 0 0;
+  color: var(--global-text-color-light-mode); /* Softer text for paragraphs */
+  font-weight: 400; /* Regular weight */
+  opacity: 0.85; /* Slightly reduce opacity */
+  line-height: 1.5;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  .scard {
+    background-color: var(--global-bg-color);
+    border-color: var(--global-divider-color);
+    color: var(--global-text-color); /* Restore stronger text for dark mode */
+  }
+
+  .scard h3 {
+    color: var(--global-theme-color);
+  }
+
+  .scard a {
+    color: var(--global-theme-color);
+  }
+
+  /* Adjust hover effect for dark mode */
+  .scard:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 4px 12px var(--global-hover-color);
+  }
+}
