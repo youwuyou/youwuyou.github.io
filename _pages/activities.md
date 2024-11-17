@@ -4,7 +4,7 @@ permalink: /activities/
 title: HPC TEAM
 description: diving in the world of HPC...
 nav: true
-nav_order: 4
+nav_order: 5
 social: true  # includes social icons at the bottom of the page
 news: false  # includes a list of news items
 ---
